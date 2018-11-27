@@ -15,7 +15,7 @@
 ### 如何兼容数组的 forEach 方法
 
 ### 以下打印的结果是什么
-```
+```javascript
 var string = ''
 
 console.log( string instanceof String )
@@ -25,7 +25,7 @@ console.log( string === new String('') )
 ```
 
 ### 以下打印的结果是什么
-```
+```javascript
 var arr = [1]
 var obj = {
     toString: function(){ return 2 },
